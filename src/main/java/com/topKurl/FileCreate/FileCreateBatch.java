@@ -14,6 +14,8 @@ import java.util.Date;
 public class FileCreateBatch {
     public static void main(String[] args) {
         String fileName = "data/testData.txt";
+        System.out.println(args[0]);
+        System.out.println(args.length);
         int count = 10;
         int batchLen = 50;
         if(args.length>0) {

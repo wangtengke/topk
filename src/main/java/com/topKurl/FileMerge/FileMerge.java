@@ -16,6 +16,7 @@ public class FileMerge {
     public static void main(String[] args) {
         String subSortDir = "data/sort";
         String targetDir = "data/merge";
+        System.out.println(args.toString()+" "+args.length);
         if(args.length>0) {
             if(args.length!=2) {
                 System.err.println("param num is error!");
